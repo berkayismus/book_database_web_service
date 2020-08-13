@@ -7,7 +7,7 @@ function input_validator($data) {
   // bilmiyorum :D
   $data = stripslashes($data);
   // get veya post ile gönderilen html karakterlerini pasif etmek - saldırıları engellemek için
-  //$data = htmlspecialchars($data);
+  $data = htmlspecialchars($data);
     return $data;
   
 }

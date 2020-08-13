@@ -16,7 +16,8 @@ $kategoriler = $sorgu->fetchAll(PDO::FETCH_ASSOC);
 //kullanıcılar bir dizi olduğundan yazdırmak için print_r
 //print_r( $kategoriler );
 
-echo json_encode($kategoriler);
 
+
+echo json_encode($kategoriler);
 
 ?>
