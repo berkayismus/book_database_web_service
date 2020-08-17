@@ -19,6 +19,18 @@ if(isset($_GET["category_id"]) && !empty($_GET["category_id"])){
 
 }
 
+// eğer category_id== boş gelirse book_status=1 olan tüm kitapları getirsin
+if(!isset($_GET["category_id"])){
+    $book_status = 1;
+    $query = $db->prepare("SELECT * FROM books WHERE book_status=?");
+    $query->execute([
+        $book_status
+    ]);
+    $books = $query->fetchAll(PDO::FETCH_ASSOC);
+    echo json_encode($books);
+
+}
+
 
 
 
