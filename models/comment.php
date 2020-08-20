@@ -11,6 +11,18 @@ class Comment{
     public $comment_created_date;
     public $comment_status;
 
+    // constructor
+    function __construct($comment_id,$user_id,$book_id,$comment_detail,$comment_created_date,$comment_status){
+        $this->comment_id = $comment_id;
+        $this->user_id = $user_id;
+        $this->book_id = $book_id;
+        $this->comment_detail = $comment_detail;
+        $this->comment_created_date = $comment_created_date;
+        $this->comment_status = $comment_status;
+
+    }
+
+
     // getters & setters
     function setCommentId($comment_id){
         $this->comment_id = $comment_id;
