@@ -13,8 +13,8 @@ if(isset($_GET["user_id"]) && !empty($_GET["user_id"])){
     $sorgu->execute([
         $user_id
     ]);
-    $users = $sorgu->fetch(PDO::FETCH_ASSOC);
-    print_r($users);
+    $user = $sorgu->fetch(PDO::FETCH_ASSOC);
+    echo json_encode($user);
 }
 
 ?>
