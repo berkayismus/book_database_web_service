@@ -16,3 +16,8 @@ Uygulamayı **localhost**'unuzda deneyebilmeniz için aşağıdaki programların
 ![xampp start](https://www.linkpicture.com/q/Ekran-Al%C4%B1nt%C4%B1s%C4%B1_38.jpg)
 
 3 - Bu kadar, kurulumu tamamladınız!
+
+# Kullanılan Teknolojiler
+
+![PHP](https://www.shareicon.net/data/256x256/2015/10/06/112719_development_512x512.png)
+![MySQL](https://www.portakalyazilim.com.tr/images/uploads/Anasayfa/mysql-logo.png)
