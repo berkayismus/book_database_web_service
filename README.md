@@ -1,0 +1,18 @@
+# Özet ve Kurulum Rehberi
+
+Merhaba, bu temel işlemler(CRUD) barındıran, `PHP(core)` ve `MySQL` kullanarak yazılmış, sonrasında bir mobil uygulama için özelleştirilmiş basit bir `Restful API`'dır. İndirip dilediğiniz gibi kullanabilirsiniz.
+
+
+# Kurulum
+
+Uygulamayı **localhost**'unuzda deneyebilmeniz için aşağıdaki programların kurulu olması gerekiyor;
+
+[Xampp indir](https://www.apachefriends.org/tr/download.html)
+
+1 - Ardından, bu sayfadan uygulamayı indirin. Sıkıştırılmış dosyayı çıkarın ve **C:\xampp\htdocs** içine atın. 
+
+2 - Aşağıdaki görseldeki gibi, **Apache** ve **MySQL** kısımlarının yanındaki Start butonlarına basın.
+
+![xampp start](https://www.linkpicture.com/q/Ekran-Al%C4%B1nt%C4%B1s%C4%B1_38.jpg)
+
+3 - Bu kadar, kurulumu tamamladınız!
